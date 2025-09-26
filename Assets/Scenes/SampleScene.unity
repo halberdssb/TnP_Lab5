@@ -217,9 +217,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Avoider
   avoidee: {fileID: 1355058336}
-  avoidRange: 10
+  avoidRange: 8
   runAwaySpeed: 4
   visualizeSightRays: 1
+  avoideeLayerMask:
+    serializedVersion: 2
+    m_Bits: 55
+  avoiderLayerMask:
+    serializedVersion: 2
+    m_Bits: 119
 --- !u!195 &45589514
 NavMeshAgent:
   m_ObjectHideFlags: 0
